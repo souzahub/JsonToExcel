@@ -36,6 +36,7 @@ O servidor estará rodando na porta 3000. Você pode acessar a aplicação em ht
 
 ### Estrutura do projeto
 
+```json
 json-to-excel/
 ├── public/
 │   ├── css/
@@ -45,7 +46,7 @@ json-to-excel/
 ├── server.js
 ├── package.json
 └── README.md
-
+ ```
 - public/css/style.css: Contém o estilo da página HTML.
 - public/index.html: Página HTML para upload de arquivos JSON.
 - public/files/: Diretório onde os arquivos Excel gerados serão armazenados temporariamente.
@@ -68,6 +69,8 @@ Para criar um executável do projeto, siga os passos abaixo:
 
 2. Certifique-se de que o seu package.json está configurado corretamente:
 
+
+```json
     {
       "name": "json-to-excel",
       "version": "1.0.0",
@@ -93,6 +96,9 @@ Para criar um executável do projeto, siga os passos abaixo:
         "outputPath": "build"
       }
     }
+ ```
+
+
 
 3. Gere o executável:
 
