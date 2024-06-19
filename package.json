@@ -1,0 +1,25 @@
+{
+  "name": "json-to-excel",
+  "version": "1.0.0",
+  "description": "Conversor de JSON para Excel",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "json2xls": "^0.1.2",
+    "xlsx": "^0.17.4"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "build"
+  }
+}
